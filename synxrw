@@ -1,4 +1,4 @@
-local synversion = "1.23.1"
+local synversion = "1.23.2"
 
 -- this shit function makes my script fucked
 --[[pcall(function()
