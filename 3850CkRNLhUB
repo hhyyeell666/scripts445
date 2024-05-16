@@ -1,0 +1,120 @@
+--updated v2.01B
+local UI = {}
+
+-- // St34 \\ --
+UI["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+UI["1"]["Name"] = [[d959cj34]]
+
+-- // Starter59cj34.328c4 \\ --
+UI["2"] = Instance.new("Frame", UI["1"])
+UI["2"]["BorderSizePixel"] = 0
+UI["2"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36)
+UI["2"]["Size"] = UDim2.new(0, 402, 0, 185)
+UI["2"]["Position"] = UDim2.new(0.2528, 0, 0.05021, 0)
+UI["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2"]["Name"] = [[328c4]]
+
+-- // Starter9cj34.328c4.q34c5v8n907 \\ --
+UI["3"] = Instance.new("UICorner", UI["2"])
+UI["3"]["Name"] = [[q34c5v8n907]]
+
+-- // StarterG235c \\ --
+UI["4"] = Instance.new("ImageLabel", UI["2"])
+UI["4"]["BorderSizePixel"] = 0
+UI["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["4"]["Image"] = [[http://www.roblox.com/asset/?id=161079171]]
+UI["4"]["Size"] = UDim2.new(0, 135, 0, 185)
+UI["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["4"]["Name"] = [[7890235c]]
+UI["4"]["Position"] = UDim2.new(-0.00097, 0, -0.0018, 0)
+
+-- // StarterGui.d959cj34.328c4.d4v5089b \\ --
+UI["5"] = Instance.new("ImageLabel", UI["2"])
+UI["5"]["BorderSizePixel"] = 0
+UI["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["5"]["Image"] = [[http://www.roblox.com/asset/?id=13787869772]]
+UI["5"]["Size"] = UDim2.new(0, 56, 0, 55)
+UI["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["5"]["BackgroundTransparency"] = 1
+UI["5"]["Name"] = [[d4v5089b]]
+UI["5"]["Position"] = UDim2.new(0.33485, 0, -0.00342, 0)
+
+-- // StarterGui.d959cj34.328c4.d4905v8n \\ --
+UI["6"] = Instance.new("TextButton", UI["2"])
+UI["6"]["BorderSizePixel"] = 0
+UI["6"]["TextSize"] = 14
+UI["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["6"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51)
+UI["6"]["FontFace"] = Font.new([[rbxassetid://11702779409]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["6"]["Size"] = UDim2.new(0, 241, 0, 25)
+UI["6"]["Name"] = [[d4905v8n]]
+UI["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["6"]["Text"] = [[Load]]
+UI["6"]["Position"] = UDim2.new(0.37524, 0, 0.33899, 0)
+
+-- // StarterGui.d959cj34.328c4.d4905v8n.UICorner \\ --
+UI["7"] = Instance.new("UICorner", UI["6"])
+UI["7"]["CornerRadius"] = UDim.new(0.65, 0)
+
+-- // StarterGui.d959cj34.328c4.d4905v8n.LocalScript \\ --
+UI["8"] = Instance.new("LocalScript", UI["6"])
+
+
+-- // StarterGui.d959cj34.328c4.qc593q4 \\ --
+UI["9"] = Instance.new("TextLabel", UI["2"])
+UI["9"]["BorderSizePixel"] = 0
+UI["9"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
+UI["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["9"]["TextSize"] = 20
+UI["9"]["FontFace"] = Font.new([[rbxassetid://11702779409]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["9"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["9"]["BackgroundTransparency"] = 1
+UI["9"]["Size"] = UDim2.new(0, 200, 0, 50)
+UI["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["9"]["Text"] = [[Script Hub Loader]]
+UI["9"]["Name"] = [[qc593q4]]
+UI["9"]["Position"] = UDim2.new(0.41045, 0, 0.02162, 0)
+
+-- // StarterGui.d959cj34.328c4.c385 \\ --
+UI["a"] = Instance.new("TextLabel", UI["2"])
+UI["a"]["BorderSizePixel"] = 0
+UI["a"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
+UI["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["a"]["TextSize"] = 20
+UI["a"]["FontFace"] = Font.new([[rbxassetid://11702779409]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+UI["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["a"]["BackgroundTransparency"] = 1
+UI["a"]["Size"] = UDim2.new(0, 200, 0, 50)
+UI["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["a"]["Text"] = [[Key Status: null]]
+UI["a"]["Name"] = [[c385]]
+UI["a"]["Position"] = UDim2.new(0.28109, 0, 0.47027, 0)
+
+-- // StarterGui.d959cj34.328c4.782c34 \\ --
+UI["b"] = Instance.new("TextLabel", UI["2"])
+UI["b"]["BorderSizePixel"] = 0
+UI["b"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255)
+UI["b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["b"]["TextSize"] = 20
+UI["b"]["FontFace"] = Font.new([[rbxassetid://11702779409]], Enum.FontWeight.Regular, Enum.FontStyle.Italic)
+UI["b"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["b"]["BackgroundTransparency"] = 1
+UI["b"]["Size"] = UDim2.new(0, 200, 0, 50)
+UI["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["b"]["Text"] = [[Load time: nill]]
+UI["b"]["Name"] = [[782c34]]
+UI["b"]["Position"] = UDim2.new(0.26617, 0, 0.63784, 0)
+
+-- // StarterGui.d959cj34.328c4.d4905v8n.LocalScript \\ --
+local function SCRIPT_8()
+local script = UI["8"]
+	local Main = game.Players.LocalPlayer.PlayerGui.mKTUqc8ZuE9sSWLSGhAhU5.skibidireiiz
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(10)
+		Main.Visible = true
+		print("FuckYeah KrnlLib - Loaded FUCKKYEAA!!!!")
+	end)
+end
+task.spawn(SCRIPT_8)
+
+return UI["1"], require;
